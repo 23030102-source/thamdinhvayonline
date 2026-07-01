@@ -1,6 +1,8 @@
 import streamlit as st
 
 st.title("Ứng dụng thẩm định cho vay online _ Nhóm 06")
+# --- CHÈN LOGO THEO FILE TRỰC TIẾP ---
+st.image("logo.jpg")
 
 # Nhập dữ liệu
 STV = st.number_input(
